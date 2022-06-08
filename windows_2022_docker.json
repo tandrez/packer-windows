@@ -237,7 +237,7 @@
     "memory": "2048",
     "docker_images": "mcr.microsoft.com/windows/nanoserver:ltsc2022 mcr.microsoft.com/windows/servercore:ltsc2022",
     "docker_provider": "ce",
-    "docker_version": "20.10.7",
+    "docker_version": "20.10.17",
     "headless": "false",
     "iso_checksum": "sha256:4f1457c4fe14ce48c9b2324924f33ca4f0470475e6da851b39ccbf98f44e7852",
     "iso_url": "https://software-download.microsoft.com/download/sg/20348.169.210806-2348.fe_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
