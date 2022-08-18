@@ -21,6 +21,7 @@
       "iso_url": "{{user `iso_url`}}",
       "memory": "{{user `memory`}}",
       "output_directory": "windows_2022-qemu",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "qemuargs": [
         [
           "-drive",
