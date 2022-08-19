@@ -21,7 +21,7 @@
       "iso_url": "{{user `iso_url`}}",
       "memory": "{{user `memory`}}",
       "output_directory": "windows_2022-qemu",
-      "qemu_binary": "/usr/libexec/qemu-kvm",
+      "qemu_binary": "{{user `qemu_binary`}}",
       "qemuargs": [
         [
           "-drive",
@@ -192,7 +192,8 @@
     "restart_timeout": "5m",
     "virtio_win_iso": "~/virtio-win.iso",
     "winrm_timeout": "2h",
-    "vmx_version": "14"
+    "vmx_version": "14",
+    "qemu_binary": "/usr/bin/qemu-system-x86_64"
   }
 }
 
