@@ -173,8 +173,7 @@
         "./scripts/set-winrm-automatic.bat",
         "./scripts/uac-enable.bat",
         "./scripts/compile-dotnet-assemblies.bat",
-        "./scripts/dis-updates.bat",
-        "./scripts/compact.bat"
+        "./scripts/dis-updates.bat"
       ],
       "type": "windows-shell"
     }
