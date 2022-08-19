@@ -25,7 +25,7 @@
       "qemuargs": [
         [
           "-drive",
-          "file=windows_2022-qemu/{{ .Name }},if=virtio,cache=writeback,discard=ignore,format=qcow2,index=1"
+          "file=/tmp/windows_2022-qemu/{{ .Name }},if=virtio,cache=writeback,discard=ignore,format=qcow2,index=1"
         ],
         [
           "-drive",
